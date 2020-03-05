@@ -30,17 +30,25 @@ header {
     justify-content: space-between;
     font-family: 'Asap', sans-serif;
     color: white;
+}
 
-
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .navbutton {
     display: inline-block;
     color: white;
-    text-decoration: none;
     border: 1px solid;
     padding: 10px 30px;
     margin: 10px;
+}
+
+.navbutton:hover {
+    background-color: white;
+    color: rgb(70, 69, 69);
+    transition-duration: 500ms;
 }
 
 .col {
