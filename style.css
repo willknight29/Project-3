@@ -12,10 +12,17 @@
 }
 
 .col {
-    background-color: chartreuse;
-    min-height: 200px;
     width: 30%;
     margin-bottom: 40px;
+}
+
+.hide-desktop {
+    display: none;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
 }
 
 
@@ -26,7 +33,10 @@
     .col {
         width: 45%;
     }
-
+    .hide-desktop {
+        display: block;
+    }
+    
 }
 
 
@@ -34,6 +44,9 @@
 @media (max-width: 414px){
     .col {
         width: 100%;
+    }
+    .hide-mobile-only {
+        display: none;
     }
 
 }
