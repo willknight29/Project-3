@@ -12,12 +12,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 140px;
 }
 
 .header-container {
     min-height: 100px;
     background-color: rgb(70, 69, 69);
-    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
 }
 
 header {
@@ -89,8 +91,30 @@ a {
     .hide-desktop {
         display: block;
     }
+    header {
+        display: block;
+        text-align: center;
+    }
     
+
+    .navbutton {
+        display: block;
+        margin: 0px -10px;
+    }
+
+    .header-container {
+        position: relative;
+    }    
+
+    .container {
+        padding-top: 0px;
+    }
+
+    .logo {
+        padding: 40px 0px;
+    }
 }
+
 
 
 /* Mobile View */
@@ -101,5 +125,6 @@ a {
     .hide-mobile-only {
         display: none;
     }
+
 
 }
