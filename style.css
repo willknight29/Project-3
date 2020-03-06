@@ -80,6 +80,10 @@ a {
     height: auto;
 }
 
+.mob-wrapper {
+ display: none;       
+}
+
 
 
 
@@ -92,10 +96,13 @@ a {
         display: block;
     }
     header {
-        display: block;
         text-align: center;
+        margin: 0px 10px;
     }
     
+    nav {
+        display: none;
+    }
 
     .navbutton {
         display: block;
@@ -107,12 +114,31 @@ a {
     }    
 
     .container {
-        padding-top: 0px;
+        padding-top: 40px;
     }
 
     .logo {
         padding: 40px 0px;
     }
+
+    .mob-wrapper {
+        display: block;
+    }
+
+    .mob-nav {
+        display: none;
+        position: absolute;
+        padding-top: 10px;
+    }
+
+    .mobnavbutton {
+        background-color: coral;
+        padding: 15px 30px;
+        margin-left: -80px;
+        text-align: center;
+    }
+
+    
 }
 
 
@@ -126,5 +152,7 @@ a {
         display: none;
     }
 
-
+    .container {
+        padding-top: 0px;
+    }
 }
